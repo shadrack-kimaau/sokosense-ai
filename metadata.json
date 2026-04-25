@@ -1,0 +1,6 @@
+{
+  "name": "SokoSense AI",
+  "description": "Smart market negotiation and price forecasting for Kenyan farmers, supporting Sheng, Swahili, and English.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["AI-powered market analysis", "Negotiation coaching"]
+}

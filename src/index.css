@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+  --color-primary-600: #2D5A27; /* Forest Green */
+  --color-primary-700: #1C3D18;
+  --color-accent-500: #F27D26; /* Geometric Accent Orange */
+  --color-bg-base: #F5F7F2;
+  --color-text-dark: #1A2E1A;
+  
+  --shadow-geo: 4px 4px 0px rgba(45, 90, 39, 0.1);
+}
+
+@layer base {
+  body {
+    @apply bg-bg-base text-text-dark font-sans;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-sans font-extrabold tracking-tight;
+  }
+}
+
+.geo-card {
+  @apply bg-white border border-[#D1D9CF] rounded-sm p-5 shadow-geo;
+}
+
+.geo-header-border {
+  @apply border-b-2 border-primary-600;
+}
+
+.markdown-body {
+  @apply prose prose-sm max-w-none;
+}
