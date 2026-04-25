@@ -23,7 +23,7 @@ Kenya's small-scale farmers lose up to **30-40% of their potential income** due 
 ---
 
 ## Project Structure
-
+```
 SOKOSENSE-AI
 ├── src/
 │   ├── components/       # Reusable UI components (ResponseCard, Layout, etc.)
@@ -40,6 +40,8 @@ SOKOSENSE-AI
 ├── server.ts             # Node.js/Express backend for Gemini API proxying
 ├── tsconfig.json         # TypeScript configuration
 └── vite.config.ts        # Vite build and dev server settings
+
+```
 
 ## 🏗️ System Architecture
 SokoSense is built for speed, scalability, and production-readiness.
